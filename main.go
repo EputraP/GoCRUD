@@ -18,5 +18,6 @@ func main() {
 	r.GET("/post", controllers.PostsIndex)
 	r.GET("/post/:id", controllers.PostsShow)
 	r.DELETE("/post/:id", controllers.PostsDelete)
+	r.GET("brand", controllers.BrandCreate)
 	r.Run()
 }

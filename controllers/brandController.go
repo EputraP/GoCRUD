@@ -4,7 +4,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func brandCreate(c *gin.Context) {
+func BrandCreate(c *gin.Context) {
 
 	// post := models.Post{Title: "Hello World", Body: "Test"}
 
